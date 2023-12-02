@@ -42,3 +42,37 @@ ul {
 .mj {
     height: 2vh;
 }
+.ik h5, p{
+    -o-animation: color-change 4s infinite !important;
+    -moz-animation: color-change 4s infinite !important;
+    -webkit-animation: color-change 4s infinite !important;
+    animation: color-change 4s infinite !important;
+}
+@-moz-keyframes color-change{
+    0% {color: rgb(255, 255, 255);}
+    25%{color: rgb(33, 169, 223);}
+    50% {color: rgb(14, 147, 165);}
+    75%{color: rgb(32, 149, 216);}
+    100% {color: rgb(255, 255, 255);}
+}
+@-o-keyframes color-change{
+    0% {color: rgb(255, 255, 255);}
+    25%{color: rgb(33, 169, 223);}
+    50% {color: rgb(14, 147, 165);}
+    75%{color: rgb(32, 149, 216);}
+    100% {color: rgb(255, 255, 255);}
+}
+@-webkit-keyframes color-change{
+    0% {color: rgb(255, 255, 255);}
+    25%{color: rgb(33, 169, 223);}
+    50% {color: rgb(14, 147, 165);}
+    75%{color: rgb(32, 149, 216);}
+    100% {color: rgb(255, 255, 255);}
+}
+@keyframes color-change{
+    0% {color: rgb(255, 255, 255);}
+    25%{color: rgb(33, 169, 223);}
+    50% {color: rgb(14, 147, 165);}
+    75%{color: rgb(32, 149, 216);}
+    100% {color: rgb(255, 255, 255);}
+}
