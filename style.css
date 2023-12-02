@@ -1,0 +1,44 @@
+.img{
+    height: 5vh;
+}
+nav {
+    max-width: 90%;
+    margin: auto;
+}
+
+.btn {
+    background: rgb(187, 9, 9);
+}
+
+.carousel-caption {
+    padding-bottom: 25rem;
+}
+
+.container .mt-5 .pt-5 {
+    background-color: rgb(210, 218, 218);
+}
+
+li {
+    list-style: none;
+    color: #082555;
+}
+
+ul {
+    color: #728cb6;
+
+}
+.card {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.text-center {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.jh {
+    height: 4vh;
+}
+.mh{
+    height: 2vh;
+}
+.mj {
+    height: 2vh;
+}
